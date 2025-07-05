@@ -12,8 +12,8 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("plugins")
 require("config.keymaps")
+require("lazy").setup("plugins")
 
 -- print("lazy.nvim loaded from: " .. lazypath)
 
