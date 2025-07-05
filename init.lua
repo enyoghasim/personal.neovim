@@ -17,4 +17,8 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-print("lazy.nvim loaded from: " .. lazypath)
+
+require("lazy").setup("plugins")
+
+-- print("lazy.nvim loaded from: " .. lazypath)
+
