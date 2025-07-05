@@ -12,4 +12,4 @@ keymap('n', '<leader>fb', "<cmd>Telescope buffers<CR>",
 keymap('n', '<leader>fh', "<cmd>Telescope help_tags<CR>",
        {desc = 'Telescope help tags'})
 
-keymap("n", "<leader>e", "<Cmd>Neotree reveal<CR>")
+keymap("n", "<leader>e", "<Cmd>Neotree toggle<CR>")
