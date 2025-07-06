@@ -13,3 +13,5 @@ keymap('n', '<leader>fh', "<cmd>Telescope help_tags<CR>",
        {desc = 'Telescope help tags'})
 
 keymap("n", "<leader>e", "<Cmd>Neotree toggle<CR>")
+
+keymap("n", "K", vim.lsp.buf.hover, {desc = "LSP Hover"})
